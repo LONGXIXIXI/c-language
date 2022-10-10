@@ -1,40 +1,31 @@
 #include<stdio.h>
 int main()
-/*{
-	int day;
-	scanf("%d",&day);        //switchÅÐ¶Ï£¨ÕûÐÎ±í´ïÊ½£©ÖÐµÄÊýÖµ,×ªµ½case
-	switch(day)
-	{
-		case 1:              //case ¾ö¶¨Èë¿Ú£¬ºóÃæ±ØÐëÊÇÕûÐÎ³£Á¿±í´ïÊ½  
-		printf("ÐÇÆÚÒ»\n");  //break´ú±íÖÕÖ¹£¬Ìø³öÑ­»·
-		break;                
-		case 2:
-		printf("ÐÇÆÚ¶þ\n");
-		break;
-		case 3:
-		printf("ÐÇÆÚÈý\n");
-		break;
-		case 4:
-			printf("ÐÇÆÚËÄ\n");
-			break;
-			case 5:
-			printf("ÐÇÆÚÎå\n");
-			break;
-			case 6:
-			printf("ÐÇÆÚÁù\n");
-			break;
-			case 7:
-			printf("ÐÇÆÚÌì\n");
-			break;
-	}
-	return 0;
-}*/
 {
 	int day;
-	scanf("%d",&day);
-	if(day>=1 && day<5)
-	printf("¹¤×÷ÈÕ");
-	else
-	printf("ÐÝÏ¢ÈÕ");
+	scanf("%d",&day);        //switchåˆ¤æ–­ï¼ˆæ•´å½¢è¡¨è¾¾å¼ï¼‰ä¸­çš„æ•°å€¼,è½¬åˆ°case
+	switch(day)
+	{
+		case 1:              //case å†³å®šå…¥å£ï¼ŒåŽé¢å¿…é¡»æ˜¯æ•´å½¢å¸¸é‡è¡¨è¾¾å¼  
+		printf("æ˜ŸæœŸä¸€\n");  //breakä»£è¡¨ç»ˆæ­¢ï¼Œè·³å‡ºå¾ªçŽ¯
+		break;                
+		case 2:
+		printf("æ˜ŸæœŸäºŒ\n");
+		break;
+		case 3:
+		printf("æ˜ŸæœŸä¸‰\n");
+		break;
+		case 4:
+			printf("æ˜ŸæœŸå››\n");
+			break;
+			case 5:
+			printf("æ˜ŸæœŸäº”\n");
+			break;
+			case 6:
+			printf("æ˜ŸæœŸå…­\n");
+			break;
+			case 7:
+			printf("æ˜ŸæœŸå¤©\n");
+			break;
+	}
 	return 0;
 }
