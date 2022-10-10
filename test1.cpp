@@ -1,12 +1,18 @@
 #include<stdio.h>
 int main()
 {
-	int a;
-		printf("你要好好学习吗？（1/0）");
-	scanf("%d",&a);
-	if(a==1)
-	printf("好offer");
+	int age;
+	printf("请输入您的年龄:");
+	scanf("%d",&age);
+	if(age<18)
+	printf("未成年\n");
+	else if(age>=18 && age<28)
+	printf("青年\n");
+	else if(age>=28 && age<50) 
+	printf("成年\n");
+	else if(age>=50 && age<80)
+	printf("老年\n");
 	else
-	printf("卖红薯");
+	printf("耄耋\n");
 	return 0;
 }
